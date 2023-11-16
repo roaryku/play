@@ -1,21 +1,3 @@
-// function alert() {
-//     Swal.fire({
-//         title: "Done",
-//         text: "Your information was submitted",
-//         icon: "success"
-//       });
-// }
-// alert();
-
-// function alert(){
-//     Swal.fire({
-//         title: "The Internet?",
-//         text: "That thing is still around?",
-//         icon: "success"
-//       });
-// }
-// alert();
-
 const input = document.querySelector("#guess");
 const button = document.querySelector("#btn");
 const answer = Math.floor(Math.random() * 20) + 1;
